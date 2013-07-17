@@ -20,6 +20,7 @@ To run:
 $ python cafa_sp_species.py swissprot_file taxid
 
 Where tax_id is the NCBI taxonomy id of the taxon for which you wish to generate CAFA targets. E.g. 9606 is Homo sapiens.
+
 See the NCBI Taxonomy ID page for more details: http://www.ncbi.nlm.nih.gov/taxonomy
 
 Output:
@@ -39,5 +40,5 @@ Output:
 2-4. FASTA files for proteins that are not experimentally annotated in the MFO, BPO or CCO ontologies.
 
 5. FASTA file containing proteins that are not experimentally annotated in *any* GO ontology.
-6. 
+
 
