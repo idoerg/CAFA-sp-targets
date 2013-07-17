@@ -24,16 +24,20 @@ See the NCBI Taxonomy ID page for more details: http://www.ncbi.nlm.nih.gov/taxo
 
 Output:
 
-sp_species.[taxon_id].tfa
+1. sp_species.[taxon_id].tfa
 
-sp_species.[taxon_id].MFO.noexp.tfa
+2. sp_species.[taxon_id].MFO.noexp.tfa
 
-sp_species.[taxon_id].BPO.noexp.tfa
+3. sp_species.[taxon_id].BPO.noexp.tfa
 
-sp_species.[taxon_id].CCO.noexp.tfa 
+4. sp_species.[taxon_id].CCO.noexp.tfa 
 
-sp_species.[taxon_id].all.noexp.tfa
+5. sp_species.[taxon_id].all.noexp.tfa
 
 1. A FASTA files with all the proteins in [taxon_id] (replaced by an actual number, e.g. sp_species.9606.tfa for humans.
-2-4. FASTA
+
+2-4. FASTA files for proteins that are not experimentally annotated in the MFO, BPO or CCO ontologies.
+
+5. FASTA file containing proteins that are not experimentally annotated in *any* GO ontology.
+6. 
 
