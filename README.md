@@ -6,6 +6,7 @@ CAFA-sp-targets.py
 Generates targets for CAFA from a SwissProt file. 
 
 Prerequesites: biopython http://biopython.org
+
 Download the latest SwissProt file from here: 
 ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.dat.gz
 
@@ -16,6 +17,23 @@ This downloads a large (15GB) tarball containing a TrEMBL file and a SwissProt f
 
 To run:
 
-$ python cafa_sp_targets.py swissprot_file taxid
+$ python cafa_sp_species.py swissprot_file taxid
 
-Where swissprot_file
+Where tax_id is the NCBI taxonomy id of the taxon for which you wish to generate CAFA targets. E.g. 9606 is Homo sapiens.
+See the NCBI Taxonomy ID page for more details: http://www.ncbi.nlm.nih.gov/taxonomy
+
+Output:
+
+sp_species.[taxon_id].tfa
+
+sp_species.[taxon_id].MFO.noexp.tfa
+
+sp_species.[taxon_id].BPO.noexp.tfa
+
+sp_species.[taxon_id].CCO.noexp.tfa 
+
+sp_species.[taxon_id].all.noexp.tfa
+
+1. A FASTA files with all the proteins in [taxon_id] (replaced by an actual number, e.g. sp_species.9606.tfa for humans.
+2-4. FASTA
+
