@@ -1,8 +1,6 @@
 CAFA-sp-targets
 ===============
 
-CAFA-sp-targets.py
-
 Generates targets for CAFA from a SwissProt file. 
 
 Prerequesites: biopython http://biopython.org
