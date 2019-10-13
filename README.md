@@ -8,8 +8,8 @@ Prerequesites: biopython http://biopython.org
 Download the latest SwissProt file from here: 
 ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.dat.gz
 
-Targets for CAFA 2 will be provided from the June 2013 releae of SwissProt:
-ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2013_06/knowledgebase/knowledgebase2013_06.tar.gz
+Targets for CAFA 4 will be provided from the September 18, 2019 release of UniprotKB/SwissProt (2019_08)
+ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2019_08/knowledgebase/knowledgebase2019_08.tar.gz
 
 This downloads a large (15GB) tarball containing a TrEMBL file and a SwissProt file. Only the Swissprot file will be used.
 
@@ -33,7 +33,7 @@ Output:
 
 5. sp_species.[taxon_id].all.noexp.tfa
 
-1. A FASTA files with all the proteins in [taxon_id] (replaced by an actual number, e.g. sp_species.9606.tfa for humans.
+1. FASTA files with all the proteins in [taxon_id] (replaced by an actual number, e.g. sp_species.9606.tfa for human.)
 
 2-4. FASTA files for proteins that are not experimentally annotated in the MFO, BPO or CCO ontologies.
 
