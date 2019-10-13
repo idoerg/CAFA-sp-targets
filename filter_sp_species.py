@@ -46,9 +46,9 @@ def parse_go(sp_rec):
             try:
                 go_rec['evidence'] = xref[3].split(':')[0]
             except IndexError:
-                print sp_rec.entry_name
-                print go_rec
-                print xref
+                print((sp_rec.entry_name))
+                print(go_rec)
+                print(xref)
                 raise
             go_list.append(go_rec)
     return go_list
