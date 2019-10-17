@@ -1,9 +1,0 @@
-python experimental_growth.py /home/idoerg/work/CAFA3/uniprot_data/uniprot_list.txt 9606 > human_growth.csv &
-python experimental_growth.py /home/idoerg/work/CAFA3/uniprot_data/uniprot_list.txt 10090 > mouse_growth.csv &
-python experimental_growth.py /home/idoerg/work/CAFA3/uniprot_data/uniprot_list.txt 10114 > rat_growth.csv &
-python experimental_growth.py /home/idoerg/work/CAFA3/uniprot_data/uniprot_list.txt 3702 > arabi_growth.csv &
-python experimental_growth.py /home/idoerg/work/CAFA3/uniprot_data/uniprot_list.txt 7227 > fly_growth.csv &
-python experimental_growth.py /home/idoerg/work/CAFA3/uniprot_data/uniprot_list.txt 4932 > yeast_growth.csv &
-python experimental_growth.py /home/idoerg/work/CAFA3/uniprot_data/uniprot_list.txt 7955 > zebrafish_growth.csv &
-python experimental_growth.py /home/idoerg/work/CAFA3/uniprot_data/uniprot_list.txt 44689 > dicty_growth.csv &
-python experimental_growth.py /home/idoerg/work/CAFA3/uniprot_data/uniprot_list.txt 6239 > worm_growth.csv &

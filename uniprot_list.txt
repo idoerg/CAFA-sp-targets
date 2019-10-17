@@ -1,0 +1,7 @@
+/home/idoerg/work/CAFA3/uniprot_data/2013/1/uniprot_sprot.dat
+/home/idoerg/work/CAFA3/uniprot_data/2013/6/uniprot_sprot.dat
+/home/idoerg/work/CAFA3/uniprot_data/2014/1/uniprot_sprot.dat
+/home/idoerg/work/CAFA3/uniprot_data/2014/6/uniprot_sprot.dat
+/home/idoerg/work/CAFA3/uniprot_data/2015/1/uniprot_sprot.dat
+/home/idoerg/work/CAFA3/uniprot_data/2015/6/uniprot_sprot.dat
+/home/idoerg/work/CAFA3/uniprot_data/2016/1/uniprot_sprot.dat
