@@ -15,7 +15,7 @@ This downloads a large (15GB) tarball containing a TrEMBL file and a SwissProt f
 
 To run:
 ```
-$ python cafa_sp_species.py swissprot_file taxid
+$ python filter_sp_species.py swissprot_file taxid
 ```
 Where tax_id is the NCBI taxonomy id of the taxon for which you wish to generate CAFA targets. E.g. 9606 is Homo sapiens.
 
