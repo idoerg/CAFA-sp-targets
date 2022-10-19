@@ -5,7 +5,6 @@ from Bio import SwissProt as sp
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
-from Bio.Alphabet import generic_protein
 """
     Filter SwissProt by Taxon ID
 
